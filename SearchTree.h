@@ -117,9 +117,9 @@ Position<E> SearchTree<E>::find(const K& k) {
 // TO DO: implement the finderPath function
 template <typename E>					// find entry with key k
 SLinkedList<E>* SearchTree<E>::findPath(const K& k) {
-	// TO DO: you need to implement a function to return the entries of search path
+	// TO DO: you need to implement a function to return the entries of search path UNCOMPLETE
 	//         OK to create another member function to be called here if needed
-
+	
   return nullptr;
 }
 
