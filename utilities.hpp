@@ -33,7 +33,10 @@ SearchTree<Entry<string, string> >* buildBST_fromDatafile(const std::string& fil
 // TO DO: You need to implement a function to print a singly linked list in reverse order
 void printInReverseOder(SNode<Entry<string,string> >* node)
 {
-
+	printInReverseOder(node->getnext());
+	
+	cout << node->getElem();
+	
 
 }
 
