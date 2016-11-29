@@ -22,7 +22,7 @@ SearchTree<Entry<string, string> >* buildBST_fromDatafile(const std::string& fil
 	
 	SearchTree<Entry<string, string>> *bst = new SearchTree<Entry<string, string>>;
 
-	// TO DO: implement the creation of a binary search tree
+	// TO DO: implement the creation of a binary search tree UNCOMPLETE
 
 
 	f.close();
@@ -30,12 +30,12 @@ SearchTree<Entry<string, string> >* buildBST_fromDatafile(const std::string& fil
 	return bst;
 }
 
-// TO DO: You need to implement a function to print a singly linked list in reverse order
+// TO DO: You need to implement a function to print a singly linked list in reverse order COMPLETED
 void printInReverseOder(SNode<Entry<string,string> >* node)
 {
 	printInReverseOder(node->getnext());
 	
-	cout << node->getElem();
+	cout << node->getElem().key << ", " node->getElem().value;
 	
 
 }
